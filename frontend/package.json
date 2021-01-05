@@ -12,7 +12,7 @@
   "author": "Kevin Tayah",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "formik": "^2.1.4",
     "js-cookie": "^2.2.1",
     "js-file-download": "^0.4.12",
