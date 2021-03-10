@@ -22,6 +22,7 @@
     "cryptr": "^6.0.2",
     "knex": "latest",
     "lodash": "^4.17.15",
+    "next": "^10.0.7",
     "sqlite3": "latest",
     "strapi": "3.0.4",
     "strapi-admin": "3.0.4",

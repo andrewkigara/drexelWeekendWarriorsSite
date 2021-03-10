@@ -117,7 +117,7 @@ const Event = ({eventData, userPrivilege, userName, userJwt}) => {
                             <>
                                 <Row>
                                     <p className='h3'>Leader Tools</p>
-                                    <Badge color='danger' className='my-auto mx-3' pill>There are {participantForms.length} forms submitted out of {maxParticipantAmount} that could be completed.</Badge>
+                                    <Badge color='danger' className='p-2 mb-2 mx-3' pill>There are {participantForms.length} forms submitted out of {maxParticipantAmount} that could be completed.</Badge>
                                 </Row>
                                 <Row>
                                     <Button color='info' className='w-100 my-1' onClick={toggleModal}>View Participant Forms</Button>

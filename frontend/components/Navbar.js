@@ -9,17 +9,18 @@ import { useMediaQuery } from 'react-responsive';
 
 const NavbarNavigationLinks = ({activePage, navLink}) => {
     const isActive = useCallback((activePage, navLink) => {
-        if (activePage === navLink) 
-            return true;
-        return false;
+        return (activePage === navLink);
     }, [activePage, navLink]);
     return (
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className={`nav-item ${isActive(activePage, 'index') ? 'active' : ''}`}>
-                <Link href='/index'><a className="nav-link">Home</a></Link>
+                <Link href='/'><a className="nav-link">Home</a></Link>
             </li>
             <li className={`nav-item ${isActive(activePage, 'events') ? 'active' : ''}`}>
                 <Link href="/events"><a className="nav-link">Events</a></Link>
+            </li>
+            <li className={`nav-item ${isActive(activePage, 'leaders') ? 'active' : ''}`}>
+                <Link href="/leaders"><a className="nav-link">Leaders</a></Link>
             </li>
             <li className={`nav-item ${isActive(activePage, 'contact') ? 'active' : ''}`}>
                 <Link href="/contact"><a className="nav-link">Contact Us</a></Link>

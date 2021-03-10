@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leaders",
+  "info": {
+    "name": "Leaders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "ProfilePicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Position": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "FunFact": {
+      "type": "text"
+    }
+  }
+}

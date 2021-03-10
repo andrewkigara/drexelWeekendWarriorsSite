@@ -2,6 +2,12 @@
 
 Created with Next.js w/Redux for frontend and Strapi for backend with MongoDB as Database
 
+Next.js: https://nextjs.org
+
+Strapi: https://strapi.io/documentation/v3.x/getting-started/quick-start.html
+
+React: https://reactjs.org
+
 ## Running Locally
 
 To run the website locally, you must first download Node.js which can be found here <https://nodejs.org/en/>

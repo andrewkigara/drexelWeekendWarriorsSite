@@ -44,10 +44,10 @@ const Layout = ({children, activePage, showNavBar = true}) => (
         <Footer />
         <style jsx>{`
             #childrenNoNav {
-                min-height: 92.4vh; // 82.5vh;
+                min-height: 92.4vh;
             }
             #childrenNav {
-                min-height: 82.5vh;
+                min-height: 84.3vh;
             }
             img {
                 width: 64px;
