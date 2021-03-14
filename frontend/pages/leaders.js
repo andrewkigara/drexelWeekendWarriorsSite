@@ -18,7 +18,7 @@ const LeadersList = ({leaders}) => {
                     {leaders.map(leader =>(
                         <div class="card text-center my-1 rounded">
                             <div class="col">
-                                <img className="card-img-top mt-2 rounded" src={`${apiUrl + leader.ProfilePicture.formats.large.url}`} alt='trip image cap' />
+                                <img className="card-img-top mt-2 rounded" src={`${apiUrl + leader.ProfilePicture.formats.small.url}`} alt='trip image cap' />
                                 <div className='card-body'>
                                     <h4 class="card-title">{leader.FirstName} {leader.LastName}</h4>
                                     <h6 class="card-title">{leader.Position}</h6>
