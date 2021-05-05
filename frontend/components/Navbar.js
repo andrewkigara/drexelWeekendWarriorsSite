@@ -174,7 +174,7 @@ const Navbar = ({authenticate, title, activePage, onLogin, onLogout, onRememberM
 
     return (
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-            <Link href="/index"><a className="navbar-brand">{title}</a></Link>
+            <Link href="/"><a className="navbar-brand">{title}</a></Link>
             <button 
                 className="navbar-toggler" 
                 type="button" 
